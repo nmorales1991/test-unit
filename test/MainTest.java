@@ -18,8 +18,8 @@ class MainTest {
 
     @Test
     void mensaje() {
-        String mensaje = Main.mensaje(20);
-        assertEquals("El total es: 20", mensaje);
+        String mensaje = Main.mensaje(30);
+        assertEquals("El total es: 30", mensaje);
     }
 
 }
